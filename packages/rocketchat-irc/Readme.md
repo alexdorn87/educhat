@@ -1,0 +1,1 @@
+Move to [rocketchat-irc](https://github.com/haosdent/Eduard_Chat/tree/irc/packages/rocketchat-irc).

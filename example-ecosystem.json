@@ -1,0 +1,12 @@
+{
+	"deploy": {
+		"production": {
+			"user": "root",
+			"host": ["Eduard_Chat"],
+			"ref": "origin/master",
+			"repo": "https://github.com/RocketChat/Eduard_Chat.git",
+			"path": "/var/www/Eduard_Chat",
+			"post-deploy": "source build.sh production"
+		}
+	}
+}
